@@ -34,6 +34,7 @@ public class ExTranslatorV1Test {
 
     @Test
     void duplicateKeySave() {
+
         service.create("myId");
         service.create("myId"); // 같은 멤버 아이디로 저장 시도
     }
